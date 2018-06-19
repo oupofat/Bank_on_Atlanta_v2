@@ -1,0 +1,119 @@
+/*font-family: 'Open Sans', sans-serif;*/
+
+/*
+*:not(path):not(g) {
+    color: hsla(210, 100%, 100%, 0.9) !important;
+    background: hsla(210, 100%, 50%, 0.5) !important;
+    outline: solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
+    box-shadow: none !important;
+}
+*/
+
+#Your {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.Logo {
+    max-height: 150px;
+    max-width: 250px;
+
+}
+
+#text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.btn {
+    padding: 8px 20px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: 0 none;
+}
+
+#sign_up,
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-primary {
+    background: #C37068;
+    color: black;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background: #9b3f58;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+    background: #800000;
+    box-shadow: none;
+}
+.fa.fa-twitter-square{
+    margin: 20px;
+}
+
+.fa.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+}
+
+#icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.test {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+#test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image_placeholder {
+    border-style: solid;
+    border-color: black;
+}
+
+#center_box {
+    background-color: #A9BFDA;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #A2B2C9;
+}
