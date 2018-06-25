@@ -13,12 +13,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-
-
 .Logo {
     max-height: 150px;
     max-width: 250px;
-
 }
 
 #text {
@@ -33,7 +30,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .btn {
@@ -66,7 +62,7 @@ body {
 
 .btn-primary:active,
 .btn-primary.active {
-    background: #800000;
+    background: #9b3f70;
     box-shadow: none;
 }
 
@@ -80,26 +76,20 @@ body {
     background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background-clip: text;
     -webkit-background-clip: text;
-
 }
 
 #icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
-.test {
-    max-height: 100px;
-    max-width: 100px;
-}
 
-#test {
+
+#place_holder_img {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .image_placeholder {
@@ -117,7 +107,6 @@ body {
 #forth_row {
     font-size: 25px;
     text-align: center;
-
 }
 
 #heading_blue_box {
