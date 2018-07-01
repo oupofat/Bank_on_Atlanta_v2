@@ -1,4 +1,8 @@
-/*font-family: 'Open Sans', sans-serif;*/
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+D11D06
+*/
 
 /*
 *:not(path):not(g) {
@@ -8,9 +12,13 @@
     box-shadow: none !important;
 }
 */
+
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
+
+/* top bar for the logo and social media links*/
 
 .Logo {
     max-height: 150px;
@@ -22,6 +30,8 @@ body {
     justify-content: center;
     align-items: center;
     text-decoration: underline;
+    text-align: center;
+    font-weight: 500;
 }
 
 #sign_up,
@@ -30,6 +40,8 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/* button at the top of the page*/
 
 .btn {
     padding: 8px 20px;
@@ -47,7 +59,7 @@ body {
 }
 
 .btn-primary {
-    background: #C37068;
+    background: #D11D06;
     color: black;
 }
 
@@ -56,14 +68,16 @@ body {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    background: #9b3f58;
+    background: #BE1B06;
 }
 
 .btn-primary:active,
 .btn-primary.active {
-    background: #9b3f70;
+    background: #BE1B06;
     box-shadow: none;
 }
+
+/*social media icons*/
 
 .fa.fa-twitter-square {
     margin: 20px;
@@ -83,7 +97,18 @@ body {
     align-items: center;
 }
 
-
+/* this is everything in blue box part*/
+.blue_box {
+	padding: 20px;
+}
+#heading_blue_box {
+    font-size: 25px;
+    text-decoration: underline;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-weight: 900;
+    text-align: center;
+}
 
 #place_holder_img {
     display: flex;
@@ -98,7 +123,7 @@ body {
 }
 
 #center_box {
-    background-color: #A9BFDA;
+    background-color: #A9BEDB;
     border-style: solid;
     border-width: 10px;
     border-color: #A2B2C9;
@@ -109,23 +134,16 @@ body {
     text-align: center;
 }
 
-#heading_blue_box {
-    font-size: 25px;
-    text-decoration: underline;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    font-weight: bold;
-}
-
 #your_community_matters {
     font-size: 40px;
     text-decoration: underline;
     padding-bottom: 1px;
     padding-top: 25px;
-    font-weight: bolder;
+    font-weight: 900;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 #Your_community {
@@ -135,4 +153,29 @@ body {
     font-weight: 500;
     font-size: 25px;
     padding-bottom: 25px;
+    text-align: center;
+}
+
+/* green button */
+
+#green_button {
+    padding: 8px 20px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: none;
+    box-shadow: 3px 3px 5px grey;
+    background-color: #07CE1A;
+    color: black;
+    height: 40%;
+    font-size: 100%;
+    border-radius: 15px;
+    border: black;
+}
+
+.zip_codes {
+    font-size: 40px;
+	    display: flex;
+    justify-content: center;
+    align-items: center;
 }
