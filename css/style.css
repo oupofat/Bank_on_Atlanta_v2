@@ -6,14 +6,16 @@ D11D06
 
 /* https://mailchi.mp/79548bfda8fa/bankonatlanta */
 
-/* 
+/*
+ 
 :not(path):not(g) {
     color: hsla(210, 100%, 100%, 0.9) !important;
     background: hsla(210, 100%, 50%, 0.5) !important;
     outline: solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
     box-shadow: none !important;
 } 
- */
+ 
+*/
 
 body {
     font-family: 'Work Sans', sans-serif;
@@ -118,11 +120,13 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
+
 }
 
 .image_placeholder {
     border-style: solid;
     border-color: black;
+
 }
 
 #center_box {
@@ -166,7 +170,7 @@ body {
     padding-top: .5em;
     padding-bottom: .5em;
     border-radius: .65em;
-    background-color: green;
+    background-color: #00D315;
     height: 2em;
     font-size: 2em;
     font-family: 'Work Sans', sans-serif;
@@ -220,7 +224,7 @@ body {
     font-size: 30px;
     font-weight: 500;
     text-align: center;
-    
+
 }
 
 #make_your_money_matter_button {
@@ -230,12 +234,117 @@ body {
     padding-top: .5em;
     padding-bottom: .5em;
     border-radius: .65em;
-    background-color: green;
+    background-color: #00D315;
     height: 2.5em;
-    font-size: 30px;
+    font-size: auto;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 500
+    font-weight: 500;
+    vertical-align: middle;
 }
+
 .atlanta_backdrop {
     padding: 8px;
+}
+
+#neighborhood {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding-top: 2em;
+}
+
+#neighborhood_matters {
+    font-size: 30px;
+    border-bottom: .5px solid currentColor;
+    display: inline-block;
+    line-height: 0.95;
+
+}
+
+#atlanta_cares {
+    padding-top: 1em;
+}
+
+#represent_your_neighborhood_button {
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    border-radius: .65em;
+    background-color: #00D315;
+    height: 2.5em;
+    /*    transform: scale(1.75, 2);*/
+    font-size: auto;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.last_box {
+    padding-top: 2em;
+}
+
+#last-article {
+    padding-top: 2em;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+#address {
+    font-size: 1em;
+    font-weight: 600;
+    padding-left: 2em;
+}
+
+#community {
+    font-size: .75em;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.submit_button {
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: .65em;
+    background-color: #00D315;
+    height: 2.5em;
+    width: 10em;
+    font-size: 1.25em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    vertical-align: middle;
+}
+#about_us {
+    font-size: 1em;
+    justify-content: center;
+    text-align: center;
+    line-height: 2.25em;
+    text-decoration-line: underline;
+}
+
+#icons_bottom {
+    /*
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+*/
+}
+
+#facebook_icon {
+    background: white;
+    border-radius: 25px;
+    background-size: 2px;
+}
+
+#twitter_icon {
+    background: white;
+    border-radius: 25px;
 }
