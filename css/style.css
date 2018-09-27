@@ -243,7 +243,7 @@ body {
 }
 
 .atlanta_backdrop {
-    padding: 8px;
+    padding: .5px;
 }
 
 #neighborhood {
@@ -254,8 +254,8 @@ body {
 }
 
 #neighborhood_matters {
-    font-size: 30px;
-    border-bottom: .5px solid currentColor;
+    font-size: 1.875em;
+    border-bottom: .07em solid currentColor;
     display: inline-block;
     line-height: 0.95;
 
@@ -354,10 +354,9 @@ body {
 }
 */
 
-/*
-#facebook_icon {
+.white_background {
     background-color: white;
-    border-radius: 25px;
+    border-radius: 20px;
     
 }
 
@@ -365,4 +364,3 @@ body {
     background-color: white;
     border-radius: 25px;
 }
-*/
