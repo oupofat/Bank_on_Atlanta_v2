@@ -265,6 +265,21 @@ body {
     padding-top: 1em;
 }
 
+.offset_low {
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    top: 10em;
+    left: 20em;
+}
+.offset_high {
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    top: 4em;
+    right: 20em;
+}
+
 #represent_your_neighborhood_button {
     justify-content: center;
     margin-top: 1em;
@@ -290,7 +305,7 @@ body {
     font-size: 1.5em;
     font-weight: 600;
     text-align: center;
-    
+
 }
 
 #address {
@@ -321,6 +336,7 @@ body {
     font-weight: bolder;
     vertical-align: middle;
 }
+
 #about_us {
     font-size: 1em;
     justify-content: center;
@@ -329,22 +345,24 @@ body {
     text-decoration-line: underline;
 }
 
-#icons_bottom {
-    /*
+/*
+#icons_bottom {    
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2em;
-*/
 }
+*/
 
+/*
 #facebook_icon {
-    background: white;
+    background-color: white;
     border-radius: 25px;
-    background-size: 2px;
+    
 }
 
 #twitter_icon {
-    background: white;
+    background-color: white;
     border-radius: 25px;
 }
+*/
