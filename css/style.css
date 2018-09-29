@@ -1,28 +1,22 @@
 /*
-font-family: 'Open Sans', sans-serif;
-font-family: 'Work Sans', sans-serif;
+font-family:'Open Sans', sans-serif; 
+font-family:'Work Sans', sans-serif; 
 D11D06
 */
-
 /* https://mailchi.mp/79548bfda8fa/bankonatlanta */
-
 /*
  
-:not(path):not(g) {
-    color: hsla(210, 100%, 100%, 0.9) !important;
-    background: hsla(210, 100%, 50%, 0.5) !important;
-    outline: solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
-    box-shadow: none !important;
-} 
+:not(path):not(g){    color:hsla(210,100%,100%,0.9) !important;     background:hsla(210,100%,50%,0.5) !important;     outline:solid 0.25rem hsla(210,100%,100%,0.5) !important;     box-shadow:none !important}
+
  
 */
-
 body {
     font-family: 'Work Sans', sans-serif;
+    font-size: 100%;
+
 }
 
 /* top bar for the logo and social media links*/
-
 .Logo {
     max-height: 150px;
     max-width: 250px;
@@ -45,7 +39,6 @@ body {
 }
 
 /* button at the top of the page*/
-
 .btn {
     padding: 8px 20px;
     border: 0 none;
@@ -81,7 +74,6 @@ body {
 }
 
 /*social media icons*/
-
 .fa.fa-twitter-square {
     margin: 20px;
 }
@@ -101,7 +93,6 @@ body {
 }
 
 /* this is everything in first blue box part*/
-
 .blue_box {
     padding: 20px;
 }
@@ -120,14 +111,18 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-
 }
 
 .image_placeholder {
     border-style: solid;
     border-color: black;
-
 }
+/*
+img {
+      max-width: 100%;
+    height: auto;
+}
+*/
 
 #center_box {
     background-color: #A9BEDB;
@@ -164,7 +159,6 @@ body {
 }
 
 /* green button */
-
 #green_button {
     justify-content: center;
     padding-top: .5em;
@@ -174,7 +168,6 @@ body {
     height: 2em;
     font-size: 2em;
     font-family: 'Work Sans', sans-serif;
-
 }
 
 .zip_codes {
@@ -202,7 +195,6 @@ body {
 }
 
 /*second blue box with white back ground*/
-
 .second_blue_box_white {
     background: white;
     border: 18px solid #A9BEDB;
@@ -217,14 +209,12 @@ body {
     padding-bottom: 25px;
     padding-top: 25px;
     font-weight: 900;
-
 }
 
 .why_your_matter {
     font-size: 30px;
     font-weight: 500;
     text-align: center;
-
 }
 
 #make_your_money_matter_button {
@@ -244,6 +234,8 @@ body {
 
 .atlanta_backdrop {
     padding: .5px;
+    width: 100%;
+    height: auto;
 }
 
 #neighborhood {
@@ -258,7 +250,6 @@ body {
     border-bottom: .07em solid currentColor;
     display: inline-block;
     line-height: 0.95;
-
 }
 
 #atlanta_cares {
@@ -272,6 +263,7 @@ body {
     top: 10em;
     left: 20em;
 }
+
 .offset_high {
     border-style: solid;
     border-color: black;
@@ -289,7 +281,7 @@ body {
     border-radius: .65em;
     background-color: #00D315;
     height: 2.5em;
-    /*    transform: scale(1.75, 2);*/
+    /*    transform:scale(1.75,2); */
     font-size: auto;
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
@@ -305,7 +297,6 @@ body {
     font-size: 1.5em;
     font-weight: 600;
     text-align: center;
-
 }
 
 #address {
@@ -345,22 +336,19 @@ body {
     text-decoration-line: underline;
 }
 
-/*
-#icons_bottom {    
+#icons_bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2em;
 }
-*/
 
 .white_background {
     background-color: white;
-    border-radius: 20px;
-    
+    border-radius: 2em;
 }
 
 #twitter_icon {
     background-color: white;
-    border-radius: 25px;
+    border-radius: 2em;
 }
